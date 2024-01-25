@@ -50,7 +50,7 @@ public class CombatSystemTest {
         }
         while(player.getRace().getHealth() > 0 && mob.getHealth() > 0);
         if(player.getRace().getHealth() == 0) {
-            combatSystem.setVictory(false);
+            //combatSystem.setVictory(false);
         }
         else {
             if(mob.getHealth() == 0) {
