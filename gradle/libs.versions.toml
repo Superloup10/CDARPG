@@ -2,11 +2,12 @@
 java = "21"
 postgresql = "42.7.1"
 junit = "5.9.3"
+junit-platform = "1.9.3"
 
 [libraries]
 postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
 junit = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
-junit-platform = { module = "org.junit.platform:junit-platform-launcher", version = "1.9.3" }
+junit-platform = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
 
 [bundles]
 databases = ["postgresql"]
