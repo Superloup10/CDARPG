@@ -1,6 +1,7 @@
 plugins {
     application
     java
+    eclipse
 }
 
 group = "fr.wolfdev.cda"
